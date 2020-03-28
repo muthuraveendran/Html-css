@@ -1,0 +1,62 @@
+html,body{
+    margin: 0px;
+    padding:0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: violet;
+}
+
+.sideNav{
+    background-color: lightblue;
+    width: calc(100% - 1100px);
+    height: 100%;
+}
+.sideNav div{
+    padding-top: 20px;
+}
+
+.header{
+    height: 20px;
+    font-size: 20px;
+}
+
+.header img{
+    height: 20px;
+    padding-bottom: 15px;
+    float: right;
+    padding-bottom: 20px;
+}
+.image-container img{
+    height: 20px;
+    float: left;
+    padding-left: 30px;
+}
+
+ a{
+    text-decoration: none
+}
+
+.sideNav div .container1{
+    display: inline;
+  margin-top: 10px;
+  padding-left: 25px;
+  color: black;
+  font-size: 10px;
+  /* font-weight: bold; */
+}
+
+.project-container{
+}
+
+ .heading2 span{
+    color: grey;
+    font-size: 11px;
+    padding-left: 40px;
+}
+
+.footer-sidenav .add-icon img {
+    padding-left: 100px;    
+}
+
+ 
+
