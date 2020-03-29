@@ -1,0 +1,62 @@
+:root {
+  --sidenav-bg-color: #cce8fe;
+  --text-light-content: #94abc3;
+  --add-bg-color: #198cff;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  font-size: 1em;
+}
+
+.top-menu {
+  float: right;
+  padding-right: 1.0rem;
+  padding-top: 0.9rem;
+  height: 100px;
+}
+
+.side-nav {
+  background-color: var(--sidenav-bg-color);
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.menu-style li {
+  display: block;
+  padding-top: 0.9em;
+  text-decoration: none;
+}
+a {
+  display: inline;
+  text-decoration: none;
+}
+
+.menu-style ul i {
+  float: left;
+  padding-right: 1.2rem;
+  color: var(--text-light-content);
+}
+
+.light-text {
+  color: var(--text-light-content);
+  font-size: 0.6rem;
+}
+
+.sidenav-footer {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--add-bg-color);
+  padding-top: 1.0rem;
+}
+
+.main-content {
+  width: 75%;
+  height: 100%;
+  float: right;
+}
