@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/pratice5.css">
+  <script src="https://kit.fontawesome.com/0b430376ed.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body onload="loadFunction()">
+  <div class="side-nav">
+    <div class="side-nav-header">
+      <i class="fas fa-ellipsis-h"></i>
+    </div>
+    <div class="side-nav-main">
+      <div class="side-nav-main-content text-decorations">
+        <ul id="sideNav"> </ul>
+      </div>
+      <div class="project-menu text-decorations">
+        <ul id="project">
+        </ul>
+      </div>
+
+      <div class="main-form-popup" id="add-popup">
+        <div class="modal-pop">
+          <a href="#" class="close" onclick="clearTask()">X</a>
+          <form action="#" class="pop-form">
+            <input type="text" class="input-popup" id="input-1" placeholder="Title"><br>
+            <button class="save btn-popup" onclick="createTask()">Save</button>
+            <button class="cancel btn-popup" onclick="clearTask()">Cancel
+            </button>
+          </form>
+        </div>   
+      </div>
+  
+
+    </div>
+    <div class="side-nav-footer">
+      <a href="#add-popup">
+        <i class="fas fa-plus-circle"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="main-cotent">
+    <div class="task-selected design-pattern">
+      <!-- <li></li> -->
+      <!-- <span><span>EverDo</span>-MVP</span> -->
+    </div>
+    <div class="task-heading main-task-heading">
+      <div class="design-text">
+        <span id="text-display">Design</span>
+        <div class="heading-top-list">
+          <ul>
+            <li>All</li>
+            <li>1h</li>
+            <li>2h</li>
+            <li>Work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main-content" id="mainCont">
+      <!-- <div class="main-footer-popup" id="fot-btn-popup">
+        <span class="mainPopupClose" onclick="closeMainPopup()">x</span>
+      </div> -->
+      <span id="nodata"></span>
+    </div>
+    <div class="empty-right-main"></div>
+    <div class="main-footer" id="main-foot">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+       <div class="main-form-popup" id="add-popup">
+      <div class="modal-pop">
+        <a href="#" class="close" onclick="clearTask()">X</a>
+        <form action="#" class="pop-form">
+          <input type="text" class="input-popup" id="input-1" placeholder="Title"><br>
+          <button class="save btn-popup" onclick="createTask()">Save</button>
+          <button class="cancel btn-popup" onclick="clearTask()">Cancel
+          </button>
+        </form>
+      </div>   
+    </div> -->
+  </div>
+  <script src="../JS/pratice5.js"></script>
+</body>
+
+</html>

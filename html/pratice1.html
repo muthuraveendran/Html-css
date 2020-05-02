@@ -3,30 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/pratice1.css">
+    <script src="../JS/parice1.js"></script>
+
 </head>
 <body>
-    <div class="sample">
-      <h1>My First Website</h1>
-      <p>Welecome to my website! Here are somethings I enjoy.</p>
-      <ul>
-          <li>Web Development</li>
-          <li>Chess</li>
-          <li>Reading</li>
-          <li>Learning</li>
-      </ul>
-      <h2>Favourite Quotes</h2>
-      <!-- Instead of block quote try to use in div -->
-      <!-- <div class=comm-div> -->
-          <blockquote>
-            Here is a faourite quote of mine
-          </blockquote>
-         
-      <!-- </div>
-      <div class=comm-div> -->
-        <blockquote>         ...and other        </blockquote>
-    <!-- </div> -->
-    </div>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+          <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>List</h1>
+          <form id="book-form">
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="author">Author</label>
+              <input type="text" id="author" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="isbn">ISBN#</label>
+              <input type="text" id="isbn" class="form-control">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+          </form>
+          <table class="table table-striped mt-5">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN#</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+          </table>
+      </div>
     
 </body>
 </html>

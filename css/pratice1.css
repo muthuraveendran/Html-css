@@ -1,4 +1,4 @@
-
+/* 
 
 body{
     background-color:gainsboro;
@@ -17,7 +17,7 @@ blockquote{
     text-align: center;
     margin-left: 0px;
 }
-
+ */
 
 /* .sample{
     background-color: greenyellow;
@@ -30,3 +30,54 @@ blockquote{
     border: 2ps;
 } */
 
+body{
+    margin: auto; 
+     padding: 0;
+}
+.book-list{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* background-color: blue; */
+        /* padding: 15px; */
+}
+
+.book-heading input{
+    display: block;
+    height: 30px;
+    margin: 15px 0px;
+    
+    /* margin-right: 45px;  */
+}
+
+.book-heading button{
+    color: rgb(136, 255, 0);
+    background-color: blue;
+    border: none;
+    height: 30px;
+    width: 170px;
+    font-weight: bold;
+}
+
+ .display-data {
+    display: block;
+    clear: both;
+    margin: 40px;
+    padding: 15px;
+    height: 500px;
+    width: 500px;
+}
+
+table thead tr {
+    margin: 50px;
+}
+
+.tr-data th {
+    /* margin: 15px; */
+    color: red;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 115px;
+}

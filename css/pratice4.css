@@ -2,6 +2,11 @@
   --sidenav-bg-color: #cce8fe;
   --text-light-content: #94abc3;
   --add-bg-color: #198cff;
+  --u-style-text-color:#203045;
+  --sidenav-hover-color: #3B95EC;
+  --main-header-text-blue:#5B94CA;
+  --main-header-text-gray:#A3A7AA;
+  
 }
 
 html,
@@ -10,28 +15,46 @@ body {
   padding: 0px;
   height: 100vh;
   width: 100vw;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .top-menu {
-  float: right;
+  /* float: right; */
   padding-right: 1.0rem;
   padding-top: 0.9rem;
-  height: 100px;
+  height: 50px;
+  font-weight: bolder;
+  background-color: blueviolet;
 }
 
 .side-nav {
   background-color: var(--sidenav-bg-color);
   width: 25%;
-  height: 100%;
+  height: calc(100% - 50px);
   float: left;
+}
+
+.menu-style{
+  font-size: 10px;
 }
 
 .menu-style li {
   display: block;
   padding-top: 0.9em;
   text-decoration: none;
+  font-size: 1rem;
 }
+
+.menu-style li span:hover {
+ color: var(--sidenav-hover-color);
+}
+.menu-style li span{
+  color: var(--u-style-text-color) ;
+  font-family: Arial;
+  /* font-size: 0.9rem; */
+
+}
+
 a {
   display: inline;
   text-decoration: none;
@@ -45,18 +68,38 @@ a {
 
 .light-text {
   color: var(--text-light-content);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
-.sidenav-footer {
+.sidenav-footer a {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: var(--add-bg-color);
-  padding-top: 1.0rem;
+  padding-top: 2.2rem;
 }
 
 .main-content {
   width: 75%;
   height: 100%;
   float: right;
+
+}
+
+.main-content-blue{
+  padding-top: 30px;
+}
+ 
+.header-text {
+  height: 150px;
+  color: black;
+  text-align: justify;
+  justify-content: end;
+  background-color: aqua;
+  /* padding-bottom: 50px; */
+  /* text-align: end; */
 }
